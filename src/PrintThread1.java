@@ -9,7 +9,7 @@ public class PrintThread1 extends Thread {
 
     @Override
     public void run() {
-        for(int i = 1; i <= 999; i = i + 2){
+        for(int i = 1; i < 1000; i = i + 3){
             printClass.thread1Print(i);
             try {
                 Thread.sleep(10);
